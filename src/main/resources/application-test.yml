@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: profile-service
+
+
+client:
+  facebook:
+    url: ${FACEBOOK-API-URL:https://graph.facebook.com}
+  twitter:
+    url: ${TWITTER-API-URL:https://twitter.com}
